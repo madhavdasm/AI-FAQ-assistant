@@ -58,34 +58,48 @@ A lightweight, efficient model for sentence embeddings.
 
 ## 🧪 Local Setup
 
+
 ### 🔧 Requirements
+
+Install the required libraries:
+
 ```bash
 pip install pandas numpy faiss-cpu gradio sentence-transformers
-▶️ Run the App
-Ensure faq.csv (converted from the Kaggle dataset) is in the same directory as your script.
+````
 
-bash
-Copy
-Edit
+### ▶️ Run the App
+
+Make sure `faq.csv` is in the same directory as your script (converted from the Kaggle dataset).
+
+```bash
 python app.py
-The app will open in your browser via a local Gradio interface.
+```
 
-🖼️ Screenshot
+The Gradio interface will open in your default browser.
 
-📌 Demo
-▶️ Live Demo: https://huggingface.co/spaces/madhavdasm/FAQ_assistant
+---
 
-📄 License
-This project is licensed under the MIT License.
+## 📌 Demo
 
-🙌 Acknowledgments
-Kaggle for the HDFC Bank FAQ dataset
+🖥️ **Live Demo:**
+[https://huggingface.co/spaces/madhavdasm/FAQ\_assistant](https://huggingface.co/spaces/madhavdasm/FAQ_assistant)
 
-Sentence-Transformers
+---
 
-FAISS
+## 📄 License
 
-Gradio
+This project is licensed under the **MIT License**.
 
-Hugging Face Spaces
+---
+
+## 🙌 Acknowledgments
+
+* [Kaggle](https://www.kaggle.com/datasets/abbbhishekkk/faq-datasets-for-chatbot-training?select=HDFC_Faq.txt) for the HDFC Bank FAQ dataset
+* [Sentence-Transformers](https://www.sbert.net/)
+* [FAISS by Facebook AI](https://github.com/facebookresearch/faiss)
+* [Gradio](https://gradio.app/)
+* [Hugging Face Spaces](https://huggingface.co/spaces)
+
+---
+
 
