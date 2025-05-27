@@ -86,11 +86,7 @@ The Gradio interface will open in your default browser.
 
 ---
 
-## 📄 License
 
-This project is licensed under the **MIT License**.
-
----
 
 ## 🙌 Acknowledgments
 
